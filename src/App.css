@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #fefae0;
+}
+.tasks{
+  height: 25vh;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgb(255, 249, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 80%;
+  width: 80%;
+}
+.tasks>button{
+    width: 10%;
+    font-size: 2em;
+}
+.tasks span{
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.tasks p{
+  font-size: 1.1rem;
+  color: rgb(52, 0, 100);
+}
+
+
+@media only screen and (max-width: 900px) {
+  .tasks{
+    width: 80%;
+  }
+}

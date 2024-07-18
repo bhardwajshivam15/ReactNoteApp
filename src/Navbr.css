@@ -1,0 +1,9 @@
+.navbr{
+height: 8vh;
+background-color: #1d3557;
+color: azure;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 2px 9px rgba(0, 0, 0, 0.4);
+}
