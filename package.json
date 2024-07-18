@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://react-note-app-gamma-lovat.vercel.app/",
+"homepage": "https://react-note-app-gamma-lovat.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
